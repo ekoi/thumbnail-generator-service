@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "thumbnail-generator-service"
+version = "0.1.0"
+description = ""
+authors = ["ekoi <eko.indarto@dans.knaw.nl>"]
+readme = "README.md"
+packages = [{include = "thumbnail_generator_service", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+moviepy = "^1.0.3"
+opencv-python = "^4.9.0.80"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
